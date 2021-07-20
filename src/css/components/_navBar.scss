@@ -6,6 +6,7 @@
     height: 10rem;
     flex-direction: row;
     width: 100vw;
+    
     z-index: 1111;
 
     .hover-this {
@@ -35,7 +36,7 @@
             position: relative;
             display: flex;
             padding: 0;
-            margin: 2rem 1rem 0 1.5rem;
+            margin: 2rem 1rem 0 1.25rem;
             width: 100%;
             background: transparent;
             justify-content: center;
@@ -60,14 +61,14 @@
                     position: absolute;
                     display: block;
                     top: 2rem;
-                    left: 1rem;
+                    left: 0;
                     opacity: 0;
                     width: max-content;
                     color: $clr-logo-bg;
                     font-size: 1.7rem;
                     line-height: 25px;
                     transition: 400ms;
-                    transform: translateY(-50%) rotate(5deg);
+                    transform: translateY(35%) rotate(5deg);
                 }
 
                 &:before {
@@ -75,7 +76,7 @@
                     position: relative;
                     display: block;
                     top: 0;
-                    margin-left: 60%;
+                    margin-left: 30%;
                     opacity: 1;
                     transition: 400ms;
                     transform: translateY(0);
@@ -83,12 +84,12 @@
 
                 &:hover:after{
                     opacity: 1;
-                    transform: translateY(35%) rotate(-5deg);
+                    transform: translateY(50%) rotate(-5deg);
                 }
 
                 &:hover:before {
                     opacity: 0;
-                    transform: translateY(50%);
+                    transform: translateY(32.5%);
                 }
             }
         }
@@ -100,7 +101,7 @@
             position: relative;
             display: grid;
             align-items: center;
-            left: 55%;
+            left: 40%;
             margin: calc(14.5rem - 100%) 0 0 0;
 
             #about_navbar {
@@ -108,7 +109,7 @@
                 width: 7rem;
                 height: 16rem;
                 text-align: center;
-                padding: 0 0 0 35%;
+                padding: 0 0 0 30%;
                 font-size: $font-size-about;
                 writing-mode: vertical-lr;
                 text-orientation: upright;

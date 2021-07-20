@@ -6,9 +6,9 @@ class Description extends React.Component {
         <>
             <section id="about_section">
               <div className="about-container">
-                  <h2 id="about-title">My name is Daryl</h2>
                   <div className="about_description">
-                      <h2>I'm a Web Developer</h2>
+                      <h2 id="about-title">My name is Daryl</h2>
+                      <h3>I'm a Web Developer</h3>
                       <br />
                       <p>Since I decided to turn my passion into a career, I have been self-taught for much of my time in this world. I am passionate about web development, and I continually challenge myself to learn something new. I value being able to share knowledge with other people, it is exciting to create something with a group that shares your enthusiasm. I am looking to hone my skills and create new, increasingly ambitious projects.</p>
                   </div>

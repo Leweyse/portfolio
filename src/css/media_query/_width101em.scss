@@ -1,0 +1,15 @@
+@media (min-width: 93.75em) {
+    #about_section {
+        padding: 3.5rem 7rem 0 12rem !important;
+
+        .about-container {
+            .about-languages {
+                h2 {
+                    width: max-content;
+                    margin: 2rem 6rem;
+                    bottom: 20rem !important;
+                }
+            }
+        }
+    }
+}

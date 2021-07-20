@@ -2,4 +2,42 @@
     html {
         font-size: 100%;
     }
+
+    #about_section {
+        padding: 14rem 7rem 0 12rem;
+
+        .about-container {
+            .about_description { 
+                top: 1rem; 
+
+                #about-title {
+                    top: 0;
+                    font-size: 2.25rem;
+
+                    &::after {
+                        top: 3rem;
+                    }
+                }
+    
+                h3 {
+                    top: 2rem;
+                }
+            }
+    
+            .about-languages {
+                position: relative;
+                top: 2rem;
+
+                h2 {
+                    width: max-content;
+                    margin: 2rem 6rem;
+                    bottom: 85%;
+                }
+
+                ul {
+                    top: 2.5rem;
+                }
+            }
+        }
+    }
 }

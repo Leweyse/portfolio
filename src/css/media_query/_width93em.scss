@@ -20,23 +20,26 @@
     }
 
     #about_section {
-        height: 100vh;
-    
+        padding: 8rem 7rem 0 12rem;
+
         .about-container {
             grid-template-columns: 1fr 0.5fr 0.6fr;
             gap: 0.9rem;
             justify-content: stretch;
     
-            #about-title {
-                top: 12rem;
-                padding: 0 0 0 0.9rem;
-                font-size: 2.75rem;
-            }
+            .about_description { 
+                top: 3rem; 
+
+                #about-title {
+                    top: 0;
+                    font-size: 2.25rem;
+
+                    &::after {
+                        top: 3rem;
+                    }
+                }
     
-            .about_description {
-    
-                h2 {
-                    position: absolute;
+                h3 {
                     top: 2rem;
                 }
             }
@@ -48,7 +51,16 @@
                 h2 {
                     width: max-content;
                     margin: 2rem 6rem;
+                    bottom: 25rem;
                 }
+            }
+        }
+    }
+
+    #projects {
+        #card_section {
+            .card-b {
+                top: 55%;
             }
         }
     }

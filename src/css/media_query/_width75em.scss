@@ -188,26 +188,12 @@
     }
 
     #about_section {
-        height: 63rem;
-        margin-bottom: 13rem;
-        padding: 0 auto;
+        padding: 3.5rem 7rem 0 12rem;
 
         .about-container {
-            position: relative;
-            top: 11rem;
             height: auto;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: repeat(2, 0.8fr);
-
-            #about-title {
-                width: max-content;
-                top: 2rem;
-
-                &::after {
-                    left: -6.4rem;
-                    top: 0.8rem;
-                }
-            }
 
             .about_description {
                 position: relative;
@@ -216,7 +202,17 @@
                 grid-column: 1 / 3;
                 grid-row: 1 / 1;
 
-                h2 {
+                #about-title {
+                    width: max-content;
+                    top: 0;
+    
+                    &::after {
+                        right: 1rem;
+                        top: 2.5rem;
+                    }
+                }
+
+                h3 {
                     position: relative;
                     max-width: max-content;
 
@@ -337,18 +333,18 @@
                     }
                     
                     &:nth-child(4) {
-                        grid-column: 1 / 1;
+                        grid-column: 1 / 2;
                         grid-row: 2 / 2;
                     }
                     
                     &:nth-child(5) {
-                        grid-column: 2 / 2;
+                        grid-column: 2 / 3;
                         grid-row: 2 / 2;
                     }
     
                     &:nth-child(4),
                     &:nth-child(5) {
-                        left: 10.5rem;
+                        left: 20.5rem;
                     }
                 }
             }

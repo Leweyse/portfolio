@@ -12,20 +12,20 @@ class App extends React.Component {
     return (
       <>  
         <NavBar />
-          <main>
-            <Fade delay={500} triggerOnce>
-              <Welcome />
-            </Fade>
-            <Fade delay={500} triggerOnce>
-              <Description />
-            </Fade>
-            <Fade delay={500} triggerOnce>
-              <Projects />
-            </Fade>
-            <Fade delay={500} triggerOnce>
-              <Where />
-            </Fade>
-          </main>
+        <main>
+          <Fade delay={500} triggerOnce>
+            <Welcome />
+          </Fade>
+          <Fade delay={500} triggerOnce>
+            <Description />
+          </Fade>
+          <Fade delay={500} triggerOnce>
+            <Projects />
+          </Fade>
+          <Fade delay={500} triggerOnce>
+            <Where />
+          </Fade>
+        </main>
       </>
     )
   }

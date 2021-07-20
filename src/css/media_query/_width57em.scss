@@ -228,12 +228,17 @@
     }
     
     #where {
-        top: 1rem;
         height: 100%;
     
         .where-container {
+            padding: 0 7rem 5rem 7rem;
+
+            #where-title {
+                top: 3rem;
+            }
+
             .where-contain {
-                margin: 2rem 7rem 3rem 7rem;
+                top: 2rem;
                 grid-template-columns: 1fr;
                 grid-template-rows: repeat(5, 1fr);
                 row-gap: 3.5rem;
@@ -253,13 +258,9 @@
             }
         
             #footer {
-                display: block;
+                right: 1rem;
                 top: 5%;
                 padding: 0;
-
-                p {
-                    top: -3rem;
-                }
             }
         }
     }
